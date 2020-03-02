@@ -40,12 +40,9 @@ fp = open(report_path,'wb')
 runner = HTMLTestRunner.HTMLTestRunner(stream = fp,title = '测试报告',description = '执行添加用户的测试用例执行情况')
 
 
-
-
 # if __name__ == '__main__':
 #     a = addUser('J201903070064','362387359')
 #     print(a)
-
 
 
 # #请求消息头
